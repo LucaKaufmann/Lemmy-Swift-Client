@@ -19,7 +19,7 @@ public struct PersonSafe: Codable {
 	public let deleted: Bool
 	public let display_name: String?
 	public let id: Int
-	public let inbox_url: String
+	public let inbox_url: String?
 	public let instance_id: Int
 	public let local: Bool
 	public let matrix_user_id: String?
